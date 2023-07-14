@@ -1,0 +1,712 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+/* *************************star heder ************************ */
+header .logo img {
+    width: 100px;
+    height: 70px;
+}
+header .logo h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+header {
+    background: #eee;
+    padding: 15px 0;
+}
+header a {
+    color: #383333;
+    transition: all 0.5s ease;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+header .menu .bars{
+    display: none;
+
+}
+header .menu ul li {
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+
+header .content a {
+    font-size: 20px;
+    transition: all 0.5s ease;
+    
+}
+
+header .content a i {
+    margin-right: 20px;
+}
+header .content button {
+    padding: 10px 6px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+header .content button:hover {
+    background: #fa7d09bf;
+    color: #fff;
+    border: 2px solid #fa7d09bf;
+}
+/* *************************End heder ************************ */
+
+
+/* *************************star hero_home ************************ */
+.hero_home img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+/* *************************end hero_home ************************ */
+/* *************************star about_home ************************ */
+.about_home {
+    margin-top: 50px;
+}
+.about_home h2 {
+    text-align: center;
+}
+.about_home .img_about img {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.about_home .text_about {
+    margin-top: 100px;
+}
+/* *************************end about_home ************************ */
+
+/* *************************star about2_home ************************ */
+.about2_home {
+    margin-top: 100px;
+    background-color: #eee;
+}
+.about2_home i {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.about2_home h4 {
+    text-align: center;
+}
+.about2_home p {
+    text-align: center;
+}
+.about3_home {
+    margin-top: 30px;
+}
+.about3_home i {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+.about3_home h4 {
+    text-align: center;
+}
+.about3_home p {
+    text-align: center;
+}
+.about2_home h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* *************************end about2_home ************************ */
+
+
+
+/* *************************star about_home ************************ */
+.about_home {
+    margin-top: 50px;
+}
+.about_home h2 {
+    text-align: center;
+}
+.about_home .img_about img {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.about_home .text_about {
+    margin-top: 100px;
+}
+/* *************************end about_home ************************ */
+
+/* *************************star about2_home ************************ */
+.about4_home {
+    margin-top: 120px;
+
+}
+.about4_home h2 {
+    text-align: center;
+    color: #827a7a;
+}
+.about4_home i {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.about4_home #i1 {
+    color: red;
+}
+.about4_home #i2 {
+    color: #4caf50;
+}
+.about4_home #i3 {
+    color: #ff9800;
+}
+.about4_home #i4 {
+    color: #2196f3;
+}
+.about4_home #i5 {
+    color: #ffc107;
+}
+.about4_home #i6 {
+    color: #333;
+}
+.about4_home h4 {
+    text-align: center;
+}
+.about4_home p {
+    text-align: center;
+}
+.about5_home {
+    margin-top: 30px;
+}
+.about5_home i {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+.about5_home h4 {
+    text-align: center;
+}
+.about5_home p {
+    text-align: center;
+}
+.star_home {
+    background-color: #2196f3;
+    margin-top: 50px;
+    height: 150px;
+}
+.star_home h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+.star_home button {
+    margin-top: 3%;
+    margin-left: 45%;
+    text-decoration: none;
+    color:#000;
+    background: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+
+}
+
+
+/* ******************Stat footer************************************ */
+footer {
+    background: #eee;
+    margin-top: 50px;
+    padding-top: 20px;
+
+}
+footer h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+footer p {
+    text-align: center;
+}
+footer .icon {
+    text-align: center;
+    font-size: 20px;
+}
+/* ******************end header************************************ */
+/* *************************end about2_home ************************ */
+
+
+
+.hero_about img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.page-title {
+    margin-top: 30px;
+}
+.page-title .text-center h2 {
+    margin-top: 30px;
+}
+.section {
+    margin-top: 50px;
+}
+.bg-gray i {
+    font-size: 30px;
+    color: #2196f3;
+}
+
+.hero_contact img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.about_contact {
+    margin-top: 50px;
+}
+.about_contact .iteam_contact img {
+    width: 100%;
+    border-radius: 10px;
+}
+iframe {
+    margin-top: 50px;
+}
+.hero_Services .text_Services h2 {
+    text-align: center;
+}
+.hero_Services .text_Services form input{
+    margin-top: 5%;
+    margin-left: 30%;
+    border-radius: 5px;
+    border: 2px solid #918f8f;
+    width: 500px;
+    height: 50px;
+    
+}
+.hero_Services .text_Services form button {
+    width: 200px;
+    height: 40px;
+    margin-left: -210px;
+    margin-top: -5px;
+}
+.about_Services {
+    margin-top: 50px;
+}
+.about_Services .card_Services img {
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.about_Services .card_Services h5 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.about_Services .card_Services {
+    width: 220px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+
+.about_Services .card1_Services img {
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.about_Services .card1_Services h5 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.about_Services .card1_Services {
+    width: 220px;
+    background: #eee;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.about2_Services {
+    margin-top: 100px;
+}
+.about2_Services  h2 {
+    text-align: center;
+}
+.icon-design i {
+    color: #ff9800;
+}
+.card-body h5 {
+    text-align: left;
+}
+.design1 {
+    margin-top: 100px;
+}
+
+
+.hero_team img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.about_team {
+    margin-top: 50px;
+}
+.about_team .iteam_team_img img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about_team .iteam_team_text {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text h5 {
+    font-weight: bold;
+}
+
+
+.about_team .iteam_team_img1 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text1 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text1 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text1 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img1 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text1 {
+    margin-top: 60px;
+}
+
+
+
+
+
+.about_team .iteam_team_img2 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text2 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text2 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text2 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img2 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text2 {
+    margin-top: 60px;
+}
+
+
+
+.about_team .iteam_team_img3 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text3 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text3 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text3 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img3 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text3 {
+    margin-top: 60px;
+}
+
+
+
+
+
+.about_team .iteam_team_img4 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text4 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text4 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text4 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img4 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text4 {
+    margin-top: 60px;
+}
+
+
+.about_team .iteam_team_img5 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text5 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text5 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text5 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img5 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text5 {
+    margin-top: 60px;
+}
+
+
+
+
+.about_team .iteam_team_img6 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text6 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text6 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text6 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img6 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text6 {
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    header .menu ul {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background: #eee;
+        top: 100%;
+        /* display: none; */
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        
+
+    }
+    header .menu ul.show {
+        max-height: 80vh;
+    }
+    header {
+        width: 100%;
+    }
+    header .menu .bars{
+        display: block;
+        margin-left: 250px;
+        border: 2px solid #827a7a;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    header {
+        position: relative;
+    }
+    header .menu ul a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    header .content a i {
+        display: none;
+    }
+    header .content button {
+        display: block;
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        background: #eee;
+        top: 340%;
+        display: none;
+    }
+    .hero_home img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .about_home .img_about img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    .about_home .text_about {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about2_home i {
+        color: red;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 200px;
+        padding-bottom: 20px;
+    }
+    .about2_home h4 {
+        text-align: center;
+    }
+    .about2_home p {
+        text-align: center;
+    }
+
+
+
+    .about4_home i {
+        color: red;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 200px;
+        padding-bottom: 20px;
+    }
+    .about4_home h4 {
+        text-align: center;
+    }
+    .about4_home p {
+        text-align: center;
+    }
+
+
+    .about5_home i {
+        color: red;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 210px;
+        padding-bottom: 20px;
+    }
+    .about5_home h4 {
+        text-align: center;
+    }
+    .about5_home p {
+        text-align: center;
+    }
+    .star_home button {
+        margin-top: 3%;
+        margin-left: 30%;
+        
+        
+    
+    }
+    iframe {
+        width: 100%;
+    }
+
+    .about_Services .card_Services {
+        width: 80%;
+        margin-left: 50px;
+    }
+    .about_Services .card1_Services {
+        width: 80%;
+        margin-left: 50px;
+    }
+    .about_Services .card_Services img {
+        width: 150px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    .about_Services .card1_Services img {
+        width: 150px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    .hero_Services .text_Services form input{
+        margin-top: 5%;
+        margin-left: 10%;
+        border-radius: 5px;
+        border: 2px solid #918f8f;
+        width: 400px;
+        height: 50px;
+        
+    }
+    .hero_Services .text_Services form button {
+        width: 150px;
+        height: 40px;
+        margin-left: -160px;
+        margin-top: -5px;
+    }
+    header .menu .bars{
+        background: #00000000;
+        color: #000000;
+        width: 40px;
+        height: 40px;
+    
+    }
+}
